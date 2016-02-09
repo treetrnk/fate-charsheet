@@ -1,0 +1,60 @@
+html, body{
+  font-family: Arial Black;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h3 {
+  border-right: 12px url("../images/border-right.png");
+  border-left: 12px url("../images/border-left.png");
+  line-height: 30px;
+  background: #231f20;
+  color: #fff;
+}
+
+input[type="text"], input[type="checkbox"], textarea {
+  border: 3px solid #231f20;
+  font-size: 14pt;
+  font-family: Verdana;
+  background: #fff;
+  margin: 3px;
+}
+
+input[type="text"] {
+  width: 400px;
+}
+
+.id {
+  width: 70%;
+  display: inline;
+}
+
+.refresh {
+  max-width: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 18pt;
+}
+
+.logo {
+  width: 29%;
+  display: inline;
+}
+
+.aspects {
+  width: 49%;
+  display: inline;
+}
+
+.skills {
+  width: 49%;
+  display: inline;
+}
+
+.skills input[type="text"] {
+  width:75px;
+}

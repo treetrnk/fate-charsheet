@@ -4,13 +4,97 @@
     <title>Fate Character Sheet</title>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <!---<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>--->
     <script src="js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
   </head>
   <body>
+    <div class="wrapper">
+      
+      <form >
+        <div class="id">
+          <h3>ID</h3>
+          <table>
+            <tr>
+              <td>
+                <input type="text" name="name" placeholder="Name" /><br />
+                <textarea name='description' placeholder="Description"></textarea>
+              </td>
+              <td>
+                <input type="text" name="refresh" placeholder="Refresh" class="refresh" />
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="logo">
+          <img src="images/fatecore.png" width=300 />
+        </div>
+        <div class="aspects">
+          <h3>ASPECTS</h3>
+          <input type="text" name="hc" placeholder="High Concept" /><br />
+          <input type="text" name="trouble" placeholder="Trouble" /><br />
+          <input type="text" name="aspect1" /><br />
+          <input type="text" name="aspect2" /><br />
+          <input type="text" name="aspect3" />
+        </div>
+        <div class="skills">
+          <h3>SKILLS</h3>
+          <input type="text" name="skill5-1" />
+          <input type="text" name="skill5-2" />
+          <input type="text" name="skill5-3" />
+          <input type="text" name="skill5-4" />
+          <input type="text" name="skill5-5" />
+          <br />
+          <input type="text" name="skill4-1" />
+          <input type="text" name="skill4-2" />
+          <input type="text" name="skill4-3" />
+          <input type="text" name="skill4-4" />
+          <input type="text" name="skill4-5" />
+          <br />
+          <input type="text" name="skill3-1" />
+          <input type="text" name="skill3-2" />
+          <input type="text" name="skill3-3" />
+          <input type="text" name="skill3-4" />
+          <input type="text" name="skill3-5" />
+          <br />
+          <input type="text" name="skill2-1" />
+          <input type="text" name="skill2-2" />
+          <input type="text" name="skill2-3" />
+          <input type="text" name="skill2-4" />
+          <input type="text" name="skill2-5" />
+          <br />
+          <input type="text" name="skill1-1" />
+          <input type="text" name="skill1-2" />
+          <input type="text" name="skill1-3" />
+          <input type="text" name="skill1-4" />
+          <input type="text" name="skill1-5" />
+        </div>
+        <div class="stress">
+          <h3>PHYSICAL STRESS</h3>
+          <b>
+            1<input type="checkbox" name="pstress1" />
+            2<input type="checkbox" name="pstress2" />
+            3<input type="checkbox" name="pstress3" />
+            4<input type="checkbox" name="pstress4" />
+          </b>
+          <h3>MENTAL STRESS</h3>
+          <b>
+            1<input type="checkbox" name="mstress1" />
+            2<input type="checkbox" name="mstress2" />
+            3<input type="checkbox" name="mstress3" />
+            4<input type="checkbox" name="mstress4" />
+          </b>
+        </div>
+        <div class="consequences">
+          <h3>CONSEQUENCES</h3>
+          <b>
+            2<input type="text" name"consequence2" /><br />
+            4<input type="text" name"consequence4" /><br />
+            6<input type="text" name"consequence6" />
+          </b>
+        </div>
+      </form>
 
-    
-
+    </div>
   </body>
 </html>
