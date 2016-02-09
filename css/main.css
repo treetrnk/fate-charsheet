@@ -8,53 +8,92 @@ html, body{
   margin-left: auto;
 }
 
+.wrapper tr td {
+  vertical-align: top;
+}
+
 h3 {
-  border-right: 12px url("../images/border-right.png");
-  border-left: 12px url("../images/border-left.png");
+  border-right: 12px solid url("../images/border-right.png");
+  border-left: 12px solid url("../images/border-left.png");
   line-height: 30px;
   background: #231f20;
   color: #fff;
+  font-size: 13pt;
 }
 
 input[type="text"], input[type="checkbox"], textarea {
-  border: 3px solid #231f20;
-  font-size: 14pt;
+  border: 2px solid #231f20;
+  font-size: 12pt;
   font-family: Verdana;
   background: #fff;
   margin: 3px;
+  font-weight: bold;
 }
 
-input[type="text"] {
-  width: 400px;
+input[type="text"], textarea {
+  width: 96%;
 }
 
-.id {
-  width: 70%;
-  display: inline;
+.grey {
+  border: 2px solid #999;
 }
 
 .refresh {
-  max-width: 100px;
-  line-height: 100px;
+  width: 85px;
   text-align: center;
-  font-size: 18pt;
+}
+
+.refresh input {
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.id {
+  display: inline-block;
+  vertical-align: top;
+  width: 69%;
 }
 
 .logo {
+  display: inline-block;
+  vertical-align: top;
   width: 29%;
-  display: inline;
 }
 
 .aspects {
-  width: 49%;
-  display: inline;
+  display: inline-block;
+  vertical-align: top;
+  width: 41%;
 }
 
 .skills {
-  width: 49%;
-  display: inline;
+  display: inline-block;
+  vertical-align: top;
+  width: 57%;
 }
 
 .skills input[type="text"] {
   width:75px;
+}
+
+.skill-lvl {
+  font-family: Arial;
+  color: #999;
+  display: inline-block;
+  width: 95px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.stress {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+}
+
+.consequences {
+  display: inline-block;
+  vertical-align: top;
+  width: 74%;
 }
