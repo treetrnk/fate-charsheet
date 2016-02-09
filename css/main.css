@@ -1,5 +1,5 @@
 html, body{
-  font-family: "Gotham Medium";
+  font-family: "Gotham Medium", Arial;
   font-size: 11pt;
 }
 
@@ -30,7 +30,7 @@ h3 {
   line-height: 20px;
   background: #231f20;
   color: #fff;
-  font-family: "Gotham Black";
+  font-family: "Gotham Black", Arial Black;
   font-size: 11pt;
   margin: 3px 0px 3px 0px;
   display: inline-block;
@@ -39,9 +39,9 @@ h3 {
 }
 
 input[type="text"], input[type="checkbox"], textarea {
+  font-family: "Gotham Medium", Arial;
   border: 2px solid #231f20;
   font-size: 12pt;
-  font-family: "Gotham Medium";
   background: #fff;
   margin: 3px;
   font-weight: bold;
@@ -99,7 +99,7 @@ input.grey {
 }
 
 .skill-lvl {
-  font-family: "Gotham Medium";
+  font-family: "Gotham Medium", Arial;
   color: #999;
   display: inline-block;
   width: 95px;
@@ -119,6 +119,7 @@ input.grey {
 }
 
 .stress {
+  font-family: "Gotham Black", Arial Black;
   display: inline-block;
   vertical-align: top;
   width: 24%;
@@ -141,6 +142,7 @@ input.grey {
 }
 
 .consequences {
+  font-family: "Gotham Black", Arial Black;
   display: inline-block;
   vertical-align: top;
   width: 74%;
