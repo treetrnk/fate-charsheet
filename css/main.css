@@ -1,5 +1,6 @@
 html, body{
-  font-family: Gotham Black;
+  font-family: "Gotham Medium";
+  font-size: 11pt;
 }
 
 .wrapper {
@@ -12,21 +13,35 @@ html, body{
   vertical-align: top;
 }
 
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.border {
+  margin: 3px 0px 3px 0px;
+  height: 20px;
+}
+
 h3 {
-  border-right: 12px solid #231f20 url("../images/border-right.png");
-  border-left: 12px solid #231f20 url("../images/border-left.png");
-  line-height: 30px;
+  line-height: 20px;
   background: #231f20;
   color: #fff;
-  font-size: 12pt;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  font-family: "Gotham Black";
+  font-size: 11pt;
+  margin: 3px 0px 3px 0px;
+  display: inline-block;
+  vertical-align: top;
+  width: 95%;
 }
 
 input[type="text"], input[type="checkbox"], textarea {
   border: 2px solid #231f20;
   font-size: 12pt;
-  font-family: Verdana;
+  font-family: "Gotham Medium";
   background: #fff;
   margin: 3px;
   font-weight: bold;
@@ -54,13 +69,17 @@ input.grey {
 .id {
   display: inline-block;
   vertical-align: top;
-  width: 69%;
+  width: 67%;
+}
+
+.id h3 {
+  width: 97%;
 }
 
 .logo {
   display: inline-block;
   vertical-align: top;
-  width: 29%;
+  width: 25%;
 }
 
 .aspects {
@@ -80,12 +99,11 @@ input.grey {
 }
 
 .skill-lvl {
-  font-family: Arial;
+  font-family: "Gotham Medium";
   color: #999;
   display: inline-block;
   width: 95px;
   text-align: right;
-  font-weight: bold;
 }
 
 .extras {
@@ -106,6 +124,10 @@ input.grey {
   width: 24%;
 }
 
+.stress h3 {
+  width: 91%;
+}
+
 .plus, .minus {
   cursor: pointer;
 }
@@ -122,6 +144,10 @@ input.grey {
   display: inline-block;
   vertical-align: top;
   width: 74%;
+}
+
+.consequences h3 {
+  width: 97%;
 }
 
 .consequences input {
