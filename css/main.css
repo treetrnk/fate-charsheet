@@ -1,5 +1,5 @@
 html, body{
-  font-family: Arial Black;
+  font-family: Gotham Black;
 }
 
 .wrapper {
@@ -13,12 +13,14 @@ html, body{
 }
 
 h3 {
-  border-right: 12px solid url("../images/border-right.png");
-  border-left: 12px solid url("../images/border-left.png");
+  border-right: 12px solid #231f20 url("../images/border-right.png");
+  border-left: 12px solid #231f20 url("../images/border-left.png");
   line-height: 30px;
   background: #231f20;
   color: #fff;
-  font-size: 13pt;
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 input[type="text"], input[type="checkbox"], textarea {
@@ -34,7 +36,7 @@ input[type="text"], textarea {
   width: 96%;
 }
 
-.grey {
+input.grey {
   border: 2px solid #999;
 }
 
@@ -86,6 +88,18 @@ input[type="text"], textarea {
   font-weight: bold;
 }
 
+.extras {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+
+.stunts {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+
 .stress {
   display: inline-block;
   vertical-align: top;
@@ -96,4 +110,8 @@ input[type="text"], textarea {
   display: inline-block;
   vertical-align: top;
   width: 74%;
+}
+
+.consequences input {
+  width: 47%;
 }

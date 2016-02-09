@@ -27,7 +27,9 @@
           </table>
         </div>
         <div class="logo">
-          <img src="images/fatecore.png" width="300" />
+          <a href="http://evilhat.com" target="_blank">
+            <img src="images/fatecore.png" width="300" />
+          </a>
         </div><br />
         <div class="aspects">
           <h3>ASPECTS</h3>
@@ -74,6 +76,14 @@
           <input type="text" name="skill1-4" />
           <input type="text" name="skill1-5" class="grey" />
         </div>
+        <div class="extras">
+          <h3>EXTRAS</h3>
+          <textarea name="extras"></textarea>
+        </div>
+        <div class="stunts">
+          <h3>STUNTS</h3>
+          <textarea name="stunts"></textarea>
+        </div>
         <div class="stress">
           <h3>PHYSICAL STRESS</h3>
           <b>
@@ -93,9 +103,12 @@
         <div class="consequences">
           <h3>CONSEQUENCES</h3>
           <b>
-            2<input type="text" name"consequence2" /><br />
-            4<input type="text" name"consequence4" /><br />
-            6<input type="text" name"consequence6" />
+            2<input type="text" name"consequence2" placeholder="Mild" />
+            <input type="text" name="consequence3" class="grey" placeholder="2:" /><br />
+            4<input type="text" name"consequence4" placeholder="Moderate" />
+            <input type="text" name="consequence3" class="grey" /><br />
+            6<input type="text" name"consequence6" placeholder="Severe" />
+            <input type="text" name="consequence3" class="grey" />
           </b>
         </div>
       </form>
