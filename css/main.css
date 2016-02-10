@@ -4,6 +4,10 @@ html, body{
   background: #333;
 }
 
+a {
+  color: #aaa;
+}
+
 .sheet {
   max-width: 1000px;
   margin-right: auto;
@@ -166,4 +170,13 @@ input.grey {
 
 .consequences input {
   width: 47%;
+}
+
+.footer {
+  max-width: 800px;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #000; 
+  text-align: justify;
 }
