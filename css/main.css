@@ -1,12 +1,17 @@
 html, body{
   font-family: "Gotham Medium", Arial;
   font-size: 11pt;
+  background: #333;
 }
 
-.wrapper {
+.sheet {
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
+  background: #fff;
+  margin-top: 0px;
+  padding: 25px;
+  box-shadow: 5px 5px 5px #000;
 }
 
 .wrapper tr td {
@@ -82,20 +87,29 @@ input.grey {
   width: 25%;
 }
 
+.div-center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .aspects {
   display: inline-block;
   vertical-align: top;
-  width: 41%;
+  width: 34%;
 }
 
 .skills {
   display: inline-block;
   vertical-align: top;
-  width: 57%;
+  width: 64%;
+}
+
+.skills h3 {
+  width: 96%;
 }
 
 .skills input[type="text"] {
-  width:75px;
+  width: 92px;
 }
 
 .skill-lvl {
