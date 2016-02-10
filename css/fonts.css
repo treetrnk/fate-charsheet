@@ -1,15 +1,15 @@
-@ font-face {
-  font-family: "Gotham Black";
-  src: url('./fonts/Gotham-Black.otf'), format('opentype');
+@font-face {
+  font-family: gothamBlack;
+  src: url(./fonts/Gotham-Black.otf);
 }
 
-@ font-face {
-  font-family: "Gotham Medium";
-  src: url('./fonts/Gotham-Medium.otf'), format('opentype');
+@font-face {
+  font-family: gothamMed;
+  src: url(./fonts/Gotham-Medium.otf);
 }
 
-@ font-face {
-  font-family: "Gotham Medium";
-  src: url('./fonts/Gotham-Ultra.otf'), format('opentype');
+@font-face {
+  font-family: gothamUltra;
+  src: url(./fonts/Gotham-Ultra.otf);
 }
 
