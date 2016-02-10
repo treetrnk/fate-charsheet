@@ -1,11 +1,11 @@
 html, body{
   font-family: gothamMed, Arial;
   font-size: 11pt;
-  background: #333;
+  background: #ccc;
 }
 
 a {
-  color: #aaa;
+  color: #444;
 }
 
 .sheet {
