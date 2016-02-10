@@ -95,7 +95,7 @@ input.grey {
 .aspects {
   display: inline-block;
   vertical-align: top;
-  width: 34%;
+  width: 35%;
 }
 
 .skills {
@@ -104,12 +104,8 @@ input.grey {
   width: 64%;
 }
 
-.skills h3 {
-  width: 96%;
-}
-
 .skills input[type="text"] {
-  width: 92px;
+  width: 14%;
 }
 
 .skill-lvl {
