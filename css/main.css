@@ -79,6 +79,10 @@ input.grey {
   border: 2px solid #999;
 }
 
+input[name="name"] {
+  font-size: 14pt;
+}
+
 .refresh {
   width: 85px;
   text-align: center;
@@ -86,6 +90,7 @@ input.grey {
 
 .refresh input {
   width: 80px;
+  font-size: 18pt;
   line-height: 80px;
   text-align: center;
 }
