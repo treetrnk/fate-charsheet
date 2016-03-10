@@ -196,6 +196,7 @@ input[name="name"] {
 
 .footer {
   max-width: 800px;
+  min-width: 800px;
   margin-top: 15px;
   margin-right: auto;
   margin-left: auto;
