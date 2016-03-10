@@ -25,6 +25,7 @@ a {
 
 .sheet {
   max-width: 1000px;
+  min-width: 1000px;
   margin-right: auto;
   margin-left: auto;
   background: #fff;
