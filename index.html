@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app='fatecharsheetApp'>
+<html ng-app='fatecoreApp'>
   <head>
     <title>fate core | by nathan hare</title>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
@@ -13,7 +13,6 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' 
       rel='stylesheet' type='text/css'>
     
-    <script src="js/fonts.js"></script>
     <script src="js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="../css/header.css" />
@@ -23,7 +22,7 @@
       });
     </script>
   </head>
-  <body ng-controller="charsheet as cs">
+  <body ng-controller="fatecoreCon as fc">
 
     <div id="header"></div>
 
@@ -110,22 +109,22 @@
         </div>
         <div class="stress">
           <img src="images/border-left.png" class="border" /><h3>PHYSICAL STRESS &nbsp; 
-            <span class="minus">&#8210;</span> &nbsp; <span class="plus">+</span> 
+            <span class="minus" ng-click="fc.minus('pstress')">&#8210;</span> &nbsp; 
+            <span class="plus" ng-click="fc.plus('pstress')">+</span> 
           </h3><img src="images/border-right.png" class="border" />
           <br />
-          1<input type="checkbox" name="pstress1" />
-          2<input type="checkbox" name="pstress2" />
-          3<input type="checkbox" name="pstress3" />
-          4<input type="checkbox" name="pstress4" />
+          <span ng-repeat="lvl in fc.pstress">
+            {{lvl}}<input type="checkbox" name="pstress{{lvl}}" />
+          </span>
           <br />
           <img src="images/border-left.png" class="border" /><h3>MENTAL STRESS &nbsp;&nbsp;&nbsp;&nbsp; 
-            <span class="minus">&#8210;</span> &nbsp; <span class="plus">+</span> 
+            <span class="minus" ng-click="fc.minus('mstress')">&#8210;</span> &nbsp; 
+            <span class="plus" ng-click="fc.plus('mstress')">+</span> 
           </h3><img src="images/border-right.png" class="border" />
           <br />
-          1<input type="checkbox" name="mstress1" />
-          2<input type="checkbox" name="mstress2" />
-          3<input type="checkbox" name="mstress3" />
-          4<input type="checkbox" name="mstress4" />
+          <span ng-repeat="lvl in fc.mstress">
+            {{lvl}}<input type="checkbox" name="mstress{{lvl}}" />
+          </span>
           <br />
         </div>
         <div class="consequences">
