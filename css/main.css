@@ -16,7 +16,7 @@
 html, body{
   font-family: gothamMed, Arial;
   font-size: 9pt;
-  background: #ccc;
+  background: #ddd;
 }
 
 a {
@@ -33,6 +33,7 @@ a {
   padding: 25px;
   padding-right: 10px;
   box-shadow: 5px 5px 5px #000;
+  border: 1px solid #666;
 }
 
 .wrapper tr td {
