@@ -7,24 +7,65 @@
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
 
     <!---<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>--->
-    <script src="../js/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <!---<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>--->
     <script src="../js/jquery-1.12.1.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' 
       rel='stylesheet' type='text/css'>
     
     <script src="js/main.js"></script>
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="../css/header.css" />
     <script>
       $(function() {
         $('#header').load('../header.html');
       });
+
+      (function() {
+        var cx = '007454831596437075580:jo-c4rwlx1i';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+
     </script>
   </head>
   <body ng-controller="fatecoreCon as fc">
 
-    <div id="header"></div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navebar-header">
+          <a class="navbar-brand" href="../">rpg stuff</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../">Blog</a></li>
+            <li><a href="../storygen">Story Gen</a></li>
+            <li><a href="../fatecore">Character Sheet</a></li>
+          </ul>
+          <div class="col-md-3 col-xs-11 navbar-right" id="googlesearch">
+            <gcse:search></gcse:search>
+          </div>
+          <div class="text-right navbar-right" style="line-height: 45px;color:#999;">
+            <i class="fa fa-search"></i> 
+          </div>
+          <!--
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+          -->
+        </div>
+      </div>
+    </nav>
 
     <div class="sheet">
       
